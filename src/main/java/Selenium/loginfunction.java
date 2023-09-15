@@ -31,6 +31,7 @@ public class loginfunction {
 		
 		password.sendKeys("admin123");
 		
+		
 		WebElement login = driver.findElement(By.tagName("button"));
 		
 	login.click();
